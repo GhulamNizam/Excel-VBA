@@ -1,4 +1,3 @@
-```markdown
 # Excel Bulk Find and Replace VBA Tool
 
 ## Overview
@@ -9,20 +8,17 @@ This VBA project provides a convenient way to perform a bulk find and replace op
 
 - Bulk find and replace: Search for a specific text or value and replace it with another text or value in all Excel files within the selected folder.
 - User-friendly interface: The project includes a user interface for selecting the folder and specifying the find and replace parameters.
-- Detailed logs: The tool generates logs to track the progress of the find and replace operation, making it easy to review changes and identify any issues.
+- Status: The tool generates status of the find and replace operation, making it easy to review changes and identify any issues.
 
 ## How to Use
 
 1. Open the Excel workbook that contains this VBA project.
-2. Press `ALT` + `F11` to open the Visual Basic for Applications (VBA) editor.
-3. In the VBA editor, locate and open the module named `BulkFindReplace`.
-4. Customize the find and replace parameters by modifying the values in the module.
-5. Save and close the VBA editor.
-6. Return to the Excel workbook.
-7. Click the "Run Bulk Find and Replace" button on the worksheet.
-8. A dialog box will appear for you to select the target folder.
-9. After selecting the folder, the tool will begin processing all Excel files within it, performing the find and replace operation as specified.
-10. Once the operation is complete, a summary log will be generated, and you can review the changes made in each file.
+2. Click “List excel file” button to fetch the excel files name and path from selected folder.
+3. Click the "Find and Replace" button on the worksheet.
+4. Customize the find and replace parameters by modifying the values in the userform.
+5. Click “Run” button from the useform
+6. After running the program, the tool will begin processing all Excel files within it, performing the find and replace operation as specified.
+7. Once the operation is complete, status will be there in column B
 
 ## Requirements
 
